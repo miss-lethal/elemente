@@ -1,1 +1,21 @@
+div{
+    background:red;
+}
 
+span{
+    background: green;
+    width:500px;
+    height:200px;
+    display:inline;
+    /*width und height greifen hier jetzt nur, weil wir das element span von einem inline-element in ein Block-element umgewandelt haben durch display:block; würde auch gehen display:inline-block*/
+}
+
+a{
+    background:yellow;
+}
+
+#buchstabe{
+    background:black;
+    color:white;
+    padding:2px;
+}
